@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master - Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5973/5973800.png" type="image/x-icon">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+    <a href="#" class="logo">Master - Real Estate</a>
+    <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Properties</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<!-- Hero Images -->
+<div class="hero">
+    <h1 class="hero-title">Master - Real Estate</h1>
+    <div class="search-container">
+        <h2>Find Your Dream Property</h2>
+        <form>
+            <input type="text" placeholder="Enter city, area, postal code...">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</div>
+<!-- About Us -->
+<section class="about-us">
+    <div class="about-us-content">
+        <div class="about-us-image">
+            <img src="https://img.freepik.com/premium-photo/two-hands-holding-house-with-word-home-front_693425-1611.jpg" alt="Your Profile Picture">
+        </div>
+        <div class="about-us-text">
+            <h2>About Us</h2>
+            <p>At Master - Real Estate, we are dedicated to turning your property dreams into reality. With years of expertise in the real estate market, our team of professionals is committed to providing exceptional service and personalized solutions. Whether you're looking to buy, sell, or invest, we understand the importance of finding the perfect property. Our deep market knowledge, attention to detail, and customer-focused approach ensure that you receive the best guidance and support every step of the way. Trust us to help you navigate the complexities of real estate with ease and confidence.</p>
+        </div>
+    </div>
+</section>
+<hr>
+<!-- About Me -->
+<div class="owner-section">
+    <div class="owner-content">
+        <div class="owner-text">
+            <h2>About the Owner</h2>
+            <p>
+                With years of experience in the real estate industry,<strong>John Doe</strong>  has a deep understanding of the market and a passion for helping clients find their dream properties. Whether you're buying, selling, or investing, <Strong>John Doe</Strong> is committed to providing exceptional service and personalized solutions.
+            </p>
+        </div>
+        <div class="owner-card">
+            <img src="https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg" alt="Owner Photo">
+            <h3>John Doe</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com">&#x1F465; Facebook</a>
+                <a href="https://www.instagram.com">&#x1F4F7; Instagram</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">&#x1F4E7; Email</a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- Property cards -->
+<!-- Heading -->
+<div class="heading-container">
+    <div class="heading-content">
+        <h1><strong>For Sale</strong></h1>
+    </div>
+</div>
+<div class="property-cards-container">
+    <div class="property-card">
+        <img src="https://media.istockphoto.com/id/1412643214/photo/sunset-view-luxury-tropical-pool-villa.jpg?s=612x612&w=0&k=20&c=sKno2OitWRMjXdwnXD86_Jg0xOnTjk5zUFiG8YBKRXk=" alt="Property 1">
+        <div class="card-content">
+            <h3>Sunset Villa</h3>
+            <p>Downtown</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$500,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0lwuvTOQPbMqjJ0KCtwLHtxUCH2ytnQw66A&s" alt="Property 2">
+        <div class="card-content">
+            <h3>Mountain Retreat</h3>
+            <p>Highland</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$750,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://images.dwell.com/photos-6063391372700811264/6133586265665986560-large/timber-clad-australian-beach-home-by-ola-studio.jpg" alt="Property 3">
+        <div class="card-content">
+            <h3>Beachside Bungalow</h3>
+            <p>Seaside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,200,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/399674768.jpg?k=c02ad4e5b84d66f9401d54939863311ad3270a42d560b004acc25f6258498fe9&o=&hp=1" alt="Property 4">
+        <div class="card-content">
+            <h3>Urban Loft</h3>
+            <p>City Center</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$650,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrshQ8wa0_ZbQOSqGwFkiZR4ziPV6sSeB9_w&s" alt="Property 5">
+        <div class="card-content">
+            <h3>Garden Mansion</h3>
+            <p>Suburb</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$900,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXyK950iI_aJczKe7sDkCPDXsbepLCR5ybw&s" alt="Property 6">
+        <div class="card-content">
+            <h3>Lake House</h3>
+            <p>Riverside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,000,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://i.pinimg.com/736x/8b/05/5b/8b055b1646a18f460383054167bfad38.jpg" alt="Property 7">
+        <div class="card-content">
+            <h3>Country Estate</h3>
+            <p>Countryside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$850,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://img.freepik.com/premium-photo/black-loft-modern-house-summer_105762-815.jpg" alt="Property 8">
+        <div class="card-content">
+            <h3>Modern Loft</h3>
+            <p>West End</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$620,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <img src="https://prod.rockmedialibrary.com/api/public/content/5fb5631166ba43179f0bffee4c37b46c?v=0cc05570" alt="Property 9">
+        <div class="card-content">
+            <h3>Victorian Mansion</h3>
+            <p>Historical District</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,500,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJTKTHSZtj_SOl50LwnvluHxdY9-31Te5GA&s" alt="Property 10">
+        <div class="card-content">
+            <h3>Cozy Cabin</h3>
+            <p>Mountain View</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$450,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiM02rjwQtd8kqtcAHEdICFtwoW1USpslfqA&s" alt="Property 7">
+        <div class="card-content">
+            <h3>Urban Apartment</h3>
+            <p>City Center</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$750,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpKveLcqgiT_Yc5y1QZFg7l4mqU0_HZ7-2fg&s" alt="Property 8">
+        <div class="card-content">
+            <h3>Cozy Cottage</h3>
+            <p>Suburbia</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$400,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+</div>
+<!-- Property cards 2-->
+<!-- Heading 2-->
+<div class="heading-container">
+    <div class="heading-content">
+        <h1><strong>For Rent</strong></h1>
+    </div>
+</div>
+<div class="property-cards-container">
+    <div class="property-card">
+        <img src="https://media.istockphoto.com/id/1412643214/photo/sunset-view-luxury-tropical-pool-villa.jpg?s=612x612&w=0&k=20&c=sKno2OitWRMjXdwnXD86_Jg0xOnTjk5zUFiG8YBKRXk=" alt="Property 1">
+        <div class="card-content">
+            <h3>Sunset Villa</h3>
+            <p>Downtown</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$500,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0lwuvTOQPbMqjJ0KCtwLHtxUCH2ytnQw66A&s" alt="Property 2">
+        <div class="card-content">
+            <h3>Mountain Retreat</h3>
+            <p>Highland</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$750,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://images.dwell.com/photos-6063391372700811264/6133586265665986560-large/timber-clad-australian-beach-home-by-ola-studio.jpg" alt="Property 3">
+        <div class="card-content">
+            <h3>Beachside Bungalow</h3>
+            <p>Seaside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,200,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/399674768.jpg?k=c02ad4e5b84d66f9401d54939863311ad3270a42d560b004acc25f6258498fe9&o=&hp=1" alt="Property 4">
+        <div class="card-content">
+            <h3>Urban Loft</h3>
+            <p>City Center</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$650,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrshQ8wa0_ZbQOSqGwFkiZR4ziPV6sSeB9_w&s" alt="Property 5">
+        <div class="card-content">
+            <h3>Garden Mansion</h3>
+            <p>Suburb</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$900,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXyK950iI_aJczKe7sDkCPDXsbepLCR5ybw&s" alt="Property 6">
+        <div class="card-content">
+            <h3>Lake House</h3>
+            <p>Riverside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,000,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://i.pinimg.com/736x/8b/05/5b/8b055b1646a18f460383054167bfad38.jpg" alt="Property 7">
+        <div class="card-content">
+            <h3>Country Estate</h3>
+            <p>Countryside</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$850,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://img.freepik.com/premium-photo/black-loft-modern-house-summer_105762-815.jpg" alt="Property 8">
+        <div class="card-content">
+            <h3>Modern Loft</h3>
+            <p>West End</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$620,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <img src="https://prod.rockmedialibrary.com/api/public/content/5fb5631166ba43179f0bffee4c37b46c?v=0cc05570" alt="Property 9">
+        <div class="card-content">
+            <h3>Victorian Mansion</h3>
+            <p>Historical District</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$1,500,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJTKTHSZtj_SOl50LwnvluHxdY9-31Te5GA&s" alt="Property 10">
+        <div class="card-content">
+            <h3>Cozy Cabin</h3>
+            <p>Mountain View</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$450,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiM02rjwQtd8kqtcAHEdICFtwoW1USpslfqA&s" alt="Property 7">
+        <div class="card-content">
+            <h3>Urban Apartment</h3>
+            <p>City Center</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9734;</i>
+            </div>
+            <p class="price">$750,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+    <div class="property-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpKveLcqgiT_Yc5y1QZFg7l4mqU0_HZ7-2fg&s" alt="Property 8">
+        <div class="card-content">
+            <h3>Cozy Cottage</h3>
+            <p>Suburbia</p>
+            <div class="rating">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i>
+            </div>
+            <p class="price">$400,000</p>
+            <p class="category">For Sale</p>
+        </div>
+    </div>
+</div>
+<!-- Contact Form -->
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- Container -->
+<div class="full-width-container">
+    <div class="column gallery-view">
+        <button class="gallery-button">Gallery View</button>
+    </div>
+    <div class="column google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d69271.43523189414!2d67.03455600000001!3d24.928848749999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1725107339575!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="column talk-with-agent">
+        <button class="agent-button">Talk with Agent</button>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Welcome to our website! We are dedicated to providing top-notch real estate services with a commitment to excellence and customer satisfaction. Our team of experts is here to guide you through every step of your property journey. Discover more about our services and let us help you find your dream home.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
