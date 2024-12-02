@@ -7,31 +7,26 @@ This **Estate Agency Website** showcases real estate properties with a modern, r
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshot_2024_12_02-6.png" alt="Home Page" width="300"/>
+      <img src="Screenshot_2024_12_02-6.png" alt="Img" width="300"/>
       <br/>
-      <b>Home Page</b>
     </td>
     <td align="center">
-      <img src="Screenshot_2024_12_02-7.png" alt="Products Page" width="300"/>
+      <img src="Screenshot_2024_12_02-7.png" alt="Img" width="300"/>
       <br/>
-      <b>Products Page</b>
     </td>
     <td align="center">
-      <img src="Screenshot_2024_12_02-8.png" alt="Contact Page" width="300"/>
+      <img src="Screenshot_2024_12_02-8.png" alt="Img" width="300"/>
       <br/>
-      <b>Contact Page</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Screenshot_2024_12_02-9.png" alt="About Us Page" width="300"/>
+      <img src="Screenshot_2024_12_02-9.png" alt="Img" width="300"/>
       <br/>
-      <b>About Us Page</b>
     </td>
     <td align="center">
-      <img src="Screenshot_2024_12_02-10.png" alt="FAQ Page" width="300"/>
+      <img src="Screenshot_2024_12_02-10.png" alt="Img" width="300"/>
       <br/>
-      <b>FAQ Page</b>
     </td>
   </tr>
 </table>
